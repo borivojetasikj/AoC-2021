@@ -5,6 +5,7 @@
 
 namespace AoC2021
 {
+  /* --- Day 1: Sonar Sweep --- */
   class Day1
   {
     public:

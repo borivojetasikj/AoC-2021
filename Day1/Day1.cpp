@@ -22,10 +22,11 @@ namespace AoC2021
   bool Day1::PrepareInputData()
   {
     bool inputParsed = false;
-    std::string line = "";
   
     if (_inputFile)
     {
+      std::string line = "";
+
       while (_inputFile)
       {
         getline(_inputFile, line, '\n');
